@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  font-family: "Crimson Text", serif;
   margin: 0;
 }
 
@@ -71,13 +72,14 @@ article ol {
 article p {
   margin-top: 0;
   margin-bottom: 1.3rem;
+  font-weight: 300;
 }
 
 @media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
-    line-height: 1.4;
+    line-height: 1.4em;
   }
 
   article header {
@@ -143,8 +145,9 @@ article p {
 
 blockquote {
   color: #555;
-  padding: 0;
+  padding-left: 0rem;
+  padding-right: 0rem;
   max-width: 24em;
-  font-size: 1.1rem;
-  margin: 1rem 0;
+  font-size: 1.125rem;
+  margin: 0;
 }
