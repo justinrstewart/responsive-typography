@@ -5,13 +5,12 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
+  color: #222
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
-  color: #222;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -38,12 +37,71 @@ article > p:last-child {
   border-bottom: 1px solid #999;
 }
 
-blockquote {
-  max-width: 24em;
-  color: #555;
-  font-size: 1.125rem;
-}
-
 .quote {
   color: #999;
+}
+
+blockquote {
+  color: #555;
+  font-size: 1.125rem;
+  max-width: 24em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  article header {
+    padding-top: 1.4rem;
+    margin-bottom: 1.4rem;
+  }
+
+  article header p {
+    margin-bottom: 1.4rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.4rem;
+  }
+
+  article p {
+    margin-bottom: 1.4rem;
+  }
+
+  article ol {
+    margin-bottom: 1.4rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  article header {
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  article header p {
+    margin-bottom: 1.5rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  article p {
+    margin-bottom: 1.5rem;
+  }
+
+  article ol {
+    margin-bottom: 1.5rem;
+  }
 }
