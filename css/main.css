@@ -61,13 +61,6 @@ body {
   font-family: "Crimson Text", serif;
 }
 
-blockquote {
-  color: #555;
-  font-size: 1.125rem;
-  max-width: 24em;
-  margin: 0;
-}
-
 .quote {
   color: #999;
 }
